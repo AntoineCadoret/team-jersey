@@ -1,0 +1,138 @@
+{
+    "teams":[
+       {
+            "name": "ANA",
+            "color": "bg-orange-500"
+        },
+        {
+            "name": "ARI",
+            "color": "bg-red-800"
+        },
+        {
+            "name": "BOS",
+            "color": "bg-yellow-400"
+        },
+        {
+            "name": "BUF",
+            "color": "bg-blue-600"
+        },
+        {
+            "name": "CGY",
+            "color": "bg-red-700"
+        },
+        {
+            "name": "CAR",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "CHI",
+            "color": "bg-red-700"
+        },
+        {
+            "name": "COL",
+            "color": "bg-red-900"
+        },
+        {
+            "name": "CBJ",
+            "color": "bg-blue-900"
+        },
+        {
+            "name": "DAL",
+            "color": "bg-green-600"
+        },
+        {
+            "name": "DET",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "EDM",
+            "color": "bg-blue-800"
+        },
+        {
+            "name": "FLA",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "LAK",
+            "color": "bg-gray-600"
+        },
+        {
+            "name": "MIN",
+            "color": "bg-green-700"
+        },
+        {
+            "name": "MTL",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "NSH",
+            "color": "bg-yellow-400"
+        },
+        {
+            "name": "NJD",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "NYI",
+            "color": "bg-blue-800"
+        },
+        {
+            "name": "NYR",
+            "color": "bg-blue-700"
+        },
+        {
+            "name": "OTT",
+            "color": "bg-red-600"
+        },
+        {
+            "name": "PHI",
+            "color": "bg-orange-500"
+        },
+        {
+            "name": "PIT",
+            "color": "bg-yellow-400"
+        },
+        {
+            "name": "SJS",
+            "color": "bg-teal-800"
+        },
+        {
+            "name": "SEA",
+            "color": "bg-teal-200"
+        },
+        {
+            "name": "STL",
+            "color": "bg-blue-700"
+        },
+        {
+            "name": "TBL",
+            "color": "bg-blue-900"
+        },
+        {
+            "name": "TOR",
+            "color": "bg-blue-800"
+        },
+        {
+            "name": "NHL",
+            "color": "bg-gray-900"
+        },
+        {
+            "name": "VAN",
+            "color": "bg-blue-700"
+        },
+        {
+            "name": "VGK",
+            "color": "bg-yellow-300"
+        },
+        {
+            "name": "WSH",
+            "color": "bg-red-700"
+        },
+        {
+            "name": "WPG",
+            "color": "bg-blue-900"
+        } 
+    ]
+    
+    
+}

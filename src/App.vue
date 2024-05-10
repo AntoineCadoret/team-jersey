@@ -1,15 +1,13 @@
 
 
 <template>
-  <header>
-    <div class="flex justify-between items-center p-4 bg-blue-400">
+  <header class="flex justify-between items-center p-4 bg-blue-400">
       <img class="w-12 h-12" :src="logo" alt="logo"/>
 
       <nav>
         <RouterLink class="m-2" to="/">Home</RouterLink>
         <RouterLink class="m-2" to="/about">About</RouterLink>
       </nav>
-    </div>
   </header>
 
   <RouterView />
