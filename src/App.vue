@@ -2,7 +2,7 @@
 
 <template>
   <header class="flex justify-between items-center p-4 bg-blue-400">
-      <img class="w-12 h-12" :src="logo" alt="logo"/>
+    <RouterLink class="m-2" to="/"><img class="w-12 h-12" :src="logo" alt="logo"/></RouterLink>
 
       <nav>
         <RouterLink class="m-2" to="/">Home</RouterLink>

@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div :class="this.teamColor" class="p-4 rounded-lg justify-center flex">
+  <div :class="teamColor" class="p-4 rounded-lg justify-center flex">
     <img :src="imgAddress" alt="teamPic" width="120" height="120">
   </div>
 </template>

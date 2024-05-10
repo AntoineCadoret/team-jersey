@@ -1,135 +1,168 @@
 {
     "teams":[
        {
-            "name": "ANA",
-            "color": "bg-orange-500"
+            "city": "anaheim",
+            "color": "bg-orange-500",
+            "shortName": "ANA"
         },
         {
-            "name": "ARI",
-            "color": "bg-red-800"
+            "city": "arizona",
+            "color": "bg-red-800",
+            "shortName": "ARI"
         },
         {
-            "name": "BOS",
+            "shortName": "BOS",
+            "city": "boston",
             "color": "bg-yellow-400"
         },
         {
-            "name": "BUF",
+            "shortName": "BUF",
+            "city": "buffalo",
             "color": "bg-blue-600"
         },
         {
-            "name": "CGY",
+            "shortName": "CGY",
+            "city": "calgary",
             "color": "bg-red-700"
         },
         {
-            "name": "CAR",
+            "shortName": "CAR",
+            "city": "carolina",
             "color": "bg-red-600"
         },
         {
-            "name": "CHI",
+            "shortName": "CHI",
+            "city": "chicago",
             "color": "bg-red-700"
         },
         {
-            "name": "COL",
+            "shortName": "COL",
+            "city": "colorado",
             "color": "bg-red-900"
         },
         {
-            "name": "CBJ",
+            "shortName": "CBJ",
+            "city": "colombus",
             "color": "bg-blue-900"
         },
         {
-            "name": "DAL",
+            "shortName": "DAL",
+            "city": "dallas",
             "color": "bg-green-600"
         },
         {
-            "name": "DET",
+            "shortName": "DET",
+            "city": "detroit",
             "color": "bg-red-600"
         },
         {
-            "name": "EDM",
+            "shortName": "EDM",
+            "city": "edmonton",
             "color": "bg-blue-800"
         },
         {
-            "name": "FLA",
+            "shortName": "FLA",
+            "city": "florida",
             "color": "bg-red-600"
         },
         {
-            "name": "LAK",
+            "shortName": "LAK",
+            "city": "los-angles",
             "color": "bg-gray-600"
         },
         {
-            "name": "MIN",
+            "shortName": "MIN",
+            "city": "minnesota",
             "color": "bg-green-700"
         },
         {
-            "name": "MTL",
+            "shortName": "MTL",
+            "city": "montreal",
             "color": "bg-red-600"
         },
         {
-            "name": "NSH",
+            "shortName": "NSH",
+            "city": "nashville",
             "color": "bg-yellow-400"
         },
         {
-            "name": "NJD",
+            "shortName": "NJD",
+            "city": "new-jersey",
             "color": "bg-red-600"
         },
         {
-            "name": "NYI",
+            "shortName": "NYI",
+            "city": "new-york-islanders",
             "color": "bg-blue-800"
         },
         {
-            "name": "NYR",
+            "shortName": "NYR",
+            "city": "new-york-rangers",
             "color": "bg-blue-700"
         },
         {
-            "name": "OTT",
+            "shortName": "OTT",
+            "city": "ottawa",
             "color": "bg-red-600"
         },
         {
-            "name": "PHI",
+            "shortName": "PHI",
+            "city": "philadelphia",
             "color": "bg-orange-500"
         },
         {
-            "name": "PIT",
+            "shortName": "PIT",
+            "city": "pittsburgh",
             "color": "bg-yellow-400"
         },
         {
-            "name": "SJS",
+            "shortName": "SJS",
+            "city": "san-jose",
             "color": "bg-teal-800"
         },
         {
-            "name": "SEA",
+            "shortName": "SEA",
+            "city": "seattle",
             "color": "bg-teal-200"
         },
         {
-            "name": "STL",
+            "shortName": "STL",
+            "city": "st-louis",
             "color": "bg-blue-700"
         },
         {
-            "name": "TBL",
+            "shortName": "TBL",
+            "city": "tampa-bay",
             "color": "bg-blue-900"
         },
         {
-            "name": "TOR",
+            "shortName": "TOR",
+            "city": "toronto",
             "color": "bg-blue-800"
         },
         {
-            "name": "NHL",
+            "shortName": "NHL",
+            "city": "utah",
             "color": "bg-gray-900"
         },
         {
-            "name": "VAN",
+            "shortName": "VAN",
+            "city": "vancouver",
             "color": "bg-blue-700"
         },
         {
-            "name": "VGK",
+            "shortName": "VGK",
+            "city": "las-vegas",
             "color": "bg-yellow-300"
         },
         {
-            "name": "WSH",
+            "shortName": "WSH",
+            "city": "washington",
             "color": "bg-red-700"
         },
         {
-            "name": "WPG",
+            "shortName": "WPG",
+            "city": "winnipeg",
             "color": "bg-blue-900"
         } 
     ]
