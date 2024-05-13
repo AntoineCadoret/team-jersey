@@ -3,167 +3,217 @@
        {
             "city": "anaheim",
             "color": "bg-orange-500",
-            "shortName": "ANA"
+            "fullName": "Anaheim Ducks",
+            "shortName": "ANA",
+            "jerseys": {
+                "home": "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-black-anaheim-ducks-home-authentic-jersey_pi4261000_altimages_ff_4261229-50e4919aad36e81150c1alt1_full.jpg",
+                "away": "https://fanatics.frgimages.com/anaheim-ducks/mens-fanatics-branded-white-anaheim-ducks-breakaway-away-jersey_pi2874000_ff_2874102_full.jpg",
+                "alternates": [
+                    "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-purple-anaheim-ducks-alternate-30th-anniversary-primegreen-authentic-custom-jersey_ss5_p-200138494+u-fcnp4agmwmultoafsdow+v-0sq9zlgy0gixmagtddol.jpg",
+                    "https://fanatics.frgimages.com/anaheim-ducks/mens-mitchell-and-ness-teemu-selanne-purple-anaheim-ducks-big-and-tall-blue-line-player-jersey_ss5_p-5283115+u-o1igtvyrtmff29pk2dds+v-mw5y9luy54esfwvhvffe.jpg",
+                    "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-black-anaheim-ducks-alternate-authentic-jersey_pi3280000_ff_3280377-8dbfedd7d66a0b4fbcb3_full.jpg"
+                ]
+            }
         },
         {
             "city": "arizona",
             "color": "bg-red-800",
-            "shortName": "ARI"
+            "fullName": "Arizona Coyotes",
+            "shortName": "ARI",
+            "jerseys": {
+                "home": "https://fanatics.frgimages.com/arizona-coyotes/mens-fanatics-branded-lawson-crouse-black-arizona-coyotes-home-breakaway-player-jersey_pi5135000_ff_5135953-033d2c46f80fa2e5a6a4_full.jpg",
+                "away": "https://images.footballfanatics.com/arizona-coyotes/arizona-coyotes-fanatics-branded-away-breakaway-jersey-mens_ss4_p-13308017+u-1a38xroqx4qa76m3lq0u+v-f4c59d2f9da74409960e3c20c042a662.jpg",
+                "alternates": [
+                    "https://fanatics.frgimages.com/arizona-coyotes/mens-adidas-garnet-arizona-coyotes-alternate-primegreen-authentic-custom-jersey_ss5_p-200042309+u-exolxuzx54dfnpw4yrdm+v-0mjk0aaiwuzj16ibeznb.jpg",
+                    "https://images.footballfanatics.com/arizona-coyotes/mens-fanatics-branded-burnt-orange-arizona-coyotes-special-edition-20-breakaway-blank-jersey_pi4631000_altimages_ff_4631459-3bf822515617d39730a1alt1_full.jpg"
+                ]
+            }
         },
         {
-            "shortName": "BOS",
             "city": "boston",
-            "color": "bg-yellow-400"
+            "color": "bg-yellow-400",
+            "fullName": "Boston Bruins",
+            "shortName": "BOS"
         },
         {
             "shortName": "BUF",
             "city": "buffalo",
-            "color": "bg-blue-600"
+            "color": "bg-blue-600",
+            "fullName": "Buffalo Sabres"
         },
         {
             "shortName": "CGY",
             "city": "calgary",
-            "color": "bg-red-700"
+            "color": "bg-red-700",
+            "fullName": "Calgary Flames"
         },
         {
             "shortName": "CAR",
             "city": "carolina",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "Carolina Hurricanes"
         },
         {
             "shortName": "CHI",
             "city": "chicago",
-            "color": "bg-red-700"
+            "color": "bg-red-700",
+            "fullName": "Chicago Blackhawks"
         },
         {
             "shortName": "COL",
             "city": "colorado",
-            "color": "bg-red-900"
+            "color": "bg-red-900",
+            "fullName": "Colorado Avalanche"
         },
         {
             "shortName": "CBJ",
-            "city": "colombus",
-            "color": "bg-blue-900"
+            "city": "columbus",
+            "color": "bg-blue-900",
+            "fullName": "Columbus Blue Jackets"
         },
         {
             "shortName": "DAL",
             "city": "dallas",
-            "color": "bg-green-600"
+            "color": "bg-green-600",
+            "fullName": "Dallas Stars"
         },
         {
             "shortName": "DET",
             "city": "detroit",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "Detroit Red Wings"
         },
         {
             "shortName": "EDM",
             "city": "edmonton",
-            "color": "bg-blue-800"
+            "color": "bg-blue-800",
+            "fullName": "Edmonton Oilers"
         },
         {
             "shortName": "FLA",
             "city": "florida",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "Florida Panthers"
         },
         {
             "shortName": "LAK",
-            "city": "los-angles",
-            "color": "bg-gray-600"
+            "city": "los-angeles",
+            "color": "bg-gray-600",
+            "fullName": "Los Angeles Kings"
         },
         {
             "shortName": "MIN",
             "city": "minnesota",
-            "color": "bg-green-700"
+            "color": "bg-green-700",
+            "fullName": "Minnesota Wild"
         },
         {
             "shortName": "MTL",
             "city": "montreal",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "Canadiens de Montréal"
         },
         {
             "shortName": "NSH",
             "city": "nashville",
-            "color": "bg-yellow-400"
+            "color": "bg-yellow-400",
+            "fullName": "Nashville Predators"
         },
         {
             "shortName": "NJD",
             "city": "new-jersey",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "New-Jersey Devils"
         },
         {
             "shortName": "NYI",
             "city": "new-york-islanders",
-            "color": "bg-blue-800"
+            "color": "bg-blue-800",
+            "fullName": "New-York Islanders"
         },
         {
             "shortName": "NYR",
             "city": "new-york-rangers",
-            "color": "bg-blue-700"
+            "color": "bg-blue-700",
+            "fullName": "New-York Rangers"
         },
         {
             "shortName": "OTT",
             "city": "ottawa",
-            "color": "bg-red-600"
+            "color": "bg-red-600",
+            "fullName": "Ottawa Senators"
         },
         {
             "shortName": "PHI",
             "city": "philadelphia",
-            "color": "bg-orange-500"
+            "color": "bg-orange-500",
+            "fullName": "Philadelphia Flyers"
         },
         {
             "shortName": "PIT",
             "city": "pittsburgh",
-            "color": "bg-yellow-400"
+            "color": "bg-yellow-400",
+            "fullName": "Pittsburgh Pinguins"
         },
         {
             "shortName": "SJS",
             "city": "san-jose",
-            "color": "bg-teal-800"
+            "color": "bg-teal-800",
+            "fullName": "San-Jose Sharks"
         },
         {
             "shortName": "SEA",
             "city": "seattle",
-            "color": "bg-teal-200"
+            "color": "bg-teal-200",
+            "fullName": "Seattle Kraken"
         },
         {
             "shortName": "STL",
             "city": "st-louis",
-            "color": "bg-blue-700"
+            "color": "bg-blue-700",
+            "fullName": "St.Louis Blues"
         },
         {
             "shortName": "TBL",
             "city": "tampa-bay",
-            "color": "bg-blue-900"
+            "color": "bg-blue-900",
+            "fullName": "Tampa Bay Lightning"
         },
         {
             "shortName": "TOR",
             "city": "toronto",
-            "color": "bg-blue-800"
+            "color": "bg-blue-800",
+            "fullName": "Toronto Maple Leafs"
         },
         {
             "shortName": "NHL",
             "city": "utah",
-            "color": "bg-gray-900"
+            "color": "bg-gray-900",
+            "fullName": "Utah No Names"
         },
         {
             "shortName": "VAN",
             "city": "vancouver",
-            "color": "bg-blue-700"
+            "color": "bg-blue-700",
+            "fullName": "Vancouver Canucks"
         },
         {
             "shortName": "VGK",
             "city": "las-vegas",
-            "color": "bg-yellow-300"
+            "color": "bg-yellow-300",
+            "fullName": "Las Vegas Golden Knights"
         },
         {
             "shortName": "WSH",
             "city": "washington",
-            "color": "bg-red-700"
+            "color": "bg-red-700",
+            "fullName": "Washington Capitals"
         },
         {
             "shortName": "WPG",
             "city": "winnipeg",
-            "color": "bg-blue-900"
+            "color": "bg-blue-900",
+            "fullName": "Winnipeg Jets"
         } 
     ]
     
