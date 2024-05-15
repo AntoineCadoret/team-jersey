@@ -12,6 +12,9 @@
 
   <RouterView />
 
+  <footer class="bg-blue-400">
+    <p class="text-center p-6 text-xl">@TeamJerseys</p>
+  </footer>
 </template>
 <script lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
