@@ -10,7 +10,7 @@
         <JerseyPic class="w-1/2" v-if="team.jerseys" jersey-type="Home" :jersey-address="team.jerseys.home"/>
         <JerseyPic class="w-1/2" v-if="team.jerseys" jersey-type="Away" :jersey-address="team.jerseys.away"/>
       </div>
-      <JerseyPic v-if="team.jerseys" jersey-type="Alternates" :jersey-address="team.jerseys.alternates"/>
+      <JerseyPic v-if="team.jerseys && team.jerseys.alternates" jersey-type="Alternates" :jersey-address="team.jerseys.alternates"/>
     </div>
   </main>
 </template>
@@ -18,7 +18,7 @@
   interface Jersey {
     home: string;
     away: string;
-    alternates: string[];
+    alternates?: string[];
   }
 
   interface Team {
