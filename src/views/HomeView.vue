@@ -9,6 +9,7 @@
     },
     data(){
       return {
+        league: "",
         teamsData: teams.teams
       }
     }
