@@ -1,15 +1,44 @@
-<script lang="ts">
-  export default {
-    props: ['jerseyType', 'jerseyAddress']
-  }
-</script>
-
 <template>
-  <div class="jersey flex-col flex items-center m-3">
-    <h2 class="text-center font-bold text-2xl p-4">{{ jerseyType }}</h2>
-    <div v-if="jerseyType === 'Alternates'" class="my-6 grid grid-cols-3 gap-12">
-      <img  v-for="address in jerseyAddress" class="w-60" :src="address" alt="jersey pic">
+    <div class="relative">
+        <img class="block" :src="jersey.address" alt="Jersey pic">
+        <img 
+            :src="activeImg" 
+            @click="toggleLiked" 
+            alt="like" 
+            class="absolute top-0 left-0" 
+            width="32"
+        />
     </div>
-    <img v-else :src="jerseyAddress" class="w-96" alt="jersey pic"/>
-  </div>
 </template>
+
+<script lang="ts">
+    import heartNotLike from "@/assets/image/heart.png";
+    import heartLike from "@/assets/image/heart-like.png";
+
+    import jerseys from "@/assets/jerseys.json";
+   
+
+    export default {
+        props:['jerseyId', 'teamName'],
+        data(){
+            return {
+                notLike: heartNotLike,
+                like: heartLike,
+                activeImg: ""
+            };
+        },
+        computed: {
+            jersey(){
+                let value = jerseys.jerseys.filter(jersey => jersey.id === this.jerseyId)[0];
+                this.activeImg = value.liked ? this.like : this.notLike; 
+                return value;
+            }
+        },
+        methods: {
+            toggleLiked(){
+                this.jersey.liked = !this.jersey.liked;
+                this.activeImg = this.jersey.liked ? this.like : this.notLike; 
+            }
+        }
+    }
+</script>

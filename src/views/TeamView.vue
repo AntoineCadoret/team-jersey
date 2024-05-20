@@ -7,10 +7,10 @@
     </header>
     <div>
       <div class="flex">
-        <JerseyPic class="w-1/2" v-if="team.jerseys" jersey-type="Home" :jersey-address="team.jerseys.home"/>
-        <JerseyPic class="w-1/2" v-if="team.jerseys" jersey-type="Away" :jersey-address="team.jerseys.away"/>
+        <JerseyBlock class="w-1/2" v-if="team.jerseys" jersey-type="Home" :jerseys-ids="team.jerseys.homeId" :team-name="team.shortName"/>
+        <JerseyBlock class="w-1/2" v-if="team.jerseys" jersey-type="Away" :jerseys-ids="team.jerseys.awayId" :team-name="team.shortName"/>
       </div>
-      <JerseyPic v-if="team.jerseys && team.jerseys.alternates" jersey-type="Alternates" :jersey-address="team.jerseys.alternates"/>
+      <JerseyBlock v-if="team.jerseys && team.jerseys.alternatesIds" jersey-type="Alternates" :jerseys-ids="team.jerseys.alternatesIds" :team-name="team.shortName"/>
     </div>
   </main>
 </template>
@@ -29,12 +29,12 @@
     shortName: string;
   }
   import teams from '../assets/teams.json';
-  import JerseyPic from '@/components/JerseyPic.vue';
+  import JerseyBlock from '@/components/JerseyBlock.vue';
   
   export default{
     props: ['team'],
     components:{
-      JerseyPic
+      JerseyBlock
     },
     data(){
       return {
@@ -43,7 +43,6 @@
     },
     computed: {
       team(): Team {
-        console.log(teams, 'TEAMS', this.$route.params.teamName, this.$route.params.team_name);
         let value: Team = teams.teams.filter(team => team.city === this.$route.params.team_name)[0];
         this.imgAddress = "https://assets.nhle.com/logos/nhl/svg/"+value.shortName+"_dark.svg";
         return value;
