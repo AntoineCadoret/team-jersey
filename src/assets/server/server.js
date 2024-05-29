@@ -36,9 +36,13 @@ app.get('/api/favorites', (req, res) => {
             res.status(500).send('Error reading file');
             return;
         }
-
         const jerseys = JSON.parse(data);
-        const favoritesJerseys = jerseys.jerseys.filter(jersey => jersey.liked);
+        const favoritesJerseys = [];
+        jerseys.jerseys.forEach(jersey => {
+            if(jersey.liked){
+                favoritesJerseys.push(jersey.id);
+            }
+        });
         res.send(favoritesJerseys);
     });
 });
