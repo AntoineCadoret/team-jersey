@@ -3,14 +3,14 @@
     {
       "id": "001",
       "address": "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-black-anaheim-ducks-home-authentic-jersey_pi4261000_altimages_ff_4261229-50e4919aad36e81150c1alt1_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "002",
       "address": "https://fanatics.frgimages.com/anaheim-ducks/mens-fanatics-branded-white-anaheim-ducks-breakaway-away-jersey_pi2874000_ff_2874102_full.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "003",
