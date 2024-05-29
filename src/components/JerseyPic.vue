@@ -29,7 +29,7 @@
    
 
     export default {
-        props:['jerseyId', 'teamName'],
+        props:['jerseyId'],
         data(){
             return {
                 notLike: heartNotLike,

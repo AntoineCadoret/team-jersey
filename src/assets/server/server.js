@@ -29,6 +29,20 @@ app.get('/api/jerseys', (req, res) => {
     });
 });
 
+//get favorites
+app.get('/api/favorites', (req, res) => {
+    fs.readFile(jerseysFilePath, (err, data) => {
+        if (err) {
+            res.status(500).send('Error reading file');
+            return;
+        }
+
+        const jerseys = JSON.parse(data);
+        const favoritesJerseys = jerseys.jerseys.filter(jersey => jersey.liked);
+        res.send(favoritesJerseys);
+    });
+});
+
 //mettre a jour jerseys
 app.post('/api/jerseys', (req, res)=>{
     const updatedJersey = req.body;
