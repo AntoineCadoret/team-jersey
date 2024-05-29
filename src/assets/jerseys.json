@@ -15,25 +15,25 @@
     {
       "id": "003",
       "address": "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-purple-anaheim-ducks-alternate-30th-anniversary-primegreen-authentic-custom-jersey_ss5_p-200138494+u-fcnp4agmwmultoafsdow+v-0sq9zlgy0gixmagtddol.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "004",
       "address": "https://fanatics.frgimages.com/anaheim-ducks/mens-mitchell-and-ness-teemu-selanne-purple-anaheim-ducks-big-and-tall-blue-line-player-jersey_ss5_p-5283115+u-o1igtvyrtmff29pk2dds+v-mw5y9luy54esfwvhvffe.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "005",
       "address": "https://fanatics.frgimages.com/anaheim-ducks/mens-adidas-black-anaheim-ducks-alternate-authentic-jersey_pi3280000_ff_3280377-8dbfedd7d66a0b4fbcb3_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "006",
       "address": "https://fanatics.frgimages.com/arizona-coyotes/mens-fanatics-branded-lawson-crouse-black-arizona-coyotes-home-breakaway-player-jersey_pi5135000_ff_5135953-033d2c46f80fa2e5a6a4_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -58,7 +58,7 @@
       "id": "010",
       "address": "https://fanatics.frgimages.com/boston-bruins/mens-adidas-david-pastrnak-black-boston-bruins-primegreen-100th-anniversary-authentic-player-jersey_ss5_p-5274669+u-ipbt4domucuklgqviln6+v-yadjhufkrjufslirwz8h.jpg",
       "liked": false,
-      "bought": false
+      "bought": true
     },
     {
       "id": "011",
@@ -105,13 +105,13 @@
     {
       "id": "018",
       "address": "https://fanatics.frgimages.com/buffalo-sabres/mens-adidas-rasmus-dahlin-black-buffalo-sabres-alternate-primegreen-authentic-player-jersey_pi4888000_ff_4888375-12482164ae5d853158ec_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "019",
       "address": "https://fanatics.frgimages.com/calgary-flames/mens-adidas-red-calgary-flames-2020/21-home-primegreen-authentic-jersey_pi4261000_ff_4261222-0972c3d24e5eb4d21340_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -129,8 +129,8 @@
     {
       "id": "022",
       "address": "https://fanatics.frgimages.com/calgary-flames/mens-fanatics-branded-cream-calgary-flames-2023-nhl-heritage-classic-premier-breakaway-jersey_ss5_p-5340770+pv-1+u-ivtuzrgcwjgth5ovlowi+v-972ifv1lplez04jnoeq9.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "023",
@@ -153,13 +153,13 @@
     {
       "id": "026",
       "address": "https://fanatics.frgimages.com/carolina-hurricanes/mens-adidas-sebastian-aho-red-carolina-hurricanes-alternate-primegreen-authentic-player-jersey_pi4888000_ff_4888370-2d55a310457a9419f5e5_full.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "027",
       "address": "https://fanatics.frgimages.com/carolina-hurricanes/mens-adidas-white-carolina-hurricanes-primegreen-authentic-custom-jersey_ss5_p-200042316+u-gvftwm34mqtnqzwrlhdb+v-qc4sbkjsln3wdvawouvn.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -183,13 +183,13 @@
     {
       "id": "031",
       "address": "https://fanatics.frgimages.com/colorado-avalanche/mens-adidas-nathan-mackinnon-burgundy-colorado-avalanche-home-primegreen-authentic-player-jersey_pi4260000_ff_4260815-e1090a500ebdda4c715f_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "032",
       "address": "https://fanatics.frgimages.com/colorado-avalanche/mens-adidas-white-colorado-avalanche-away-primegreen-authentic-custom-jersey_ss5_p-200138431+u-sahh3lwy5epynxisgkia+v-xupyomblebm1rxq4ohts.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -207,7 +207,7 @@
     {
       "id": "035",
       "address": "https://fanatics.frgimages.com/colorado-avalanche/mens-adidas-nathan-mackinnon-white-colorado-avalanche-2020/21-reverse-retro-authentic-player-jersey_pi4078000_ff_4078901-5dcd69785e393dda483d_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -231,7 +231,7 @@
     {
       "id": "039",
       "address": "https://fanatics.frgimages.com/columbus-blue-jackets/mens-adidas-navy-columbus-blue-jackets-alternate-primegreen-authentic-jersey_ss5_p-200594337+pv-1+u-jfu5n7tnsoec7txjpvnx+v-3cx0pov2sdrp2rooxgkd.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -243,37 +243,37 @@
     {
       "id": "041",
       "address": "https://fanatics.frgimages.com/dallas-stars/mens-adidas-green-dallas-stars-home-primegreen-authentic-jersey_pi4261000_ff_4261227-892f60ec0e5a2804e147_full.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "042",
       "address": "https://fanatics.frgimages.com/dallas-stars/mens-fanatics-white-dallas-stars-breakaway-away-jersey_pi2874000_ff_2874111_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "043",
       "address": "https://fanatics.frgimages.com/dallas-stars/mens-adidas-tyler-seguin-black-dallas-stars-alternate-primegreen-authentic-player-jersey_pi4260000_ff_4260831-46e14d265a98d63a5064_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "044",
       "address": "https://fanatics.frgimages.com/detroit-red-wings/mens-adidas-dylan-larkin-red-detroit-red-wings-home-primegreen-authentic-player-jersey_pi4260000_ff_4260813-c64235a5b08674a4117b_full.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "045",
       "address": "https://fanatics.frgimages.com/detroit-red-wings/mens-adidas-white-detroit-red-wings-away-primegreen-authentic-custom-jersey_ss5_p-200024212+u-yyhepljxvcuo5mw15u4t+v-a2wwrpl8xxawalcn9qoh.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "046",
       "address": "https://fanatics.frgimages.com/edmonton-oilers/mens-adidas-connor-mcdavid-royal-edmonton-oilers-home-primegreen-authentic-player-jersey_pi4713000_ff_4713970-b34907cd633fa1723eed_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -351,7 +351,7 @@
     {
       "id": "059",
       "address": "https://fanatics.frgimages.com/los-angeles-kings/mens-adidas-gold-los-angeles-kings-team-classics-authentic-blank-jersey_pi4337000_ff_4337234-f334bccfc88053ce5bf2_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -381,19 +381,19 @@
     {
       "id": "064",
       "address": "https://fanatics.frgimages.com/minnesota-wild/mens-adidas-kirill-kaprizov-green-minnesota-wild-2023/24-alternate-primegreen-authentic-player-jersey_ss5_p-5274682+u-vsyzgmqlwc0zaydzwphb+v-2jputxss2bvxr9zf1aov.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "065",
       "address": "https://fanatics.frgimages.com/montreal-canadiens/mens-adidas-nick-suzuki-red-montreal-canadiens-home-primegreen-authentic-pro-player-jersey_ss5_p-201471703+u-7jil3xbermv8zc0tbl4x+v-fthy89c80tdoonipxwem.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "066",
       "address": "https://fanatics.frgimages.com/montreal-canadiens/mens-fanatics-white-montreal-canadiens-breakaway-away-jersey_pi2874000_ff_2874117_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -405,7 +405,7 @@
     {
       "id": "068",
       "address": "https://images.footballfanatics.com/montreal-canadiens/mens-adidas-carey-price-blue-montreal-canadiens-2020/21-reverse-retro-player-jersey_pi3966000_altimages_ff_3966515-eec8ed5aea8d9fa38417alt1_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -429,7 +429,7 @@
     {
       "id": "072",
       "address": "https://fanatics.frgimages.com/new-jersey-devils/mens-adidas-jack-hughes-red-new-jersey-devils-home-primegreen-authentic-player-jersey_pi4260000_ff_4260850-247990daa674798a8919_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -447,13 +447,13 @@
     {
       "id": "075",
       "address": "https://fanatics.frgimages.com/new-jersey-devils/mens-adidas-white-new-jersey-devils-w-anniversary-heritage-primegreen-authentic-custom-jersey_ss5_p-200042308+u-2vm3fifwpjafsffgx4uf+v-j7cazfe4omxkdzjzotoo.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "076",
       "address": "https://images.footballfanatics.com/new-jersey-devils/mens-fanatics-jack-hughes-red-new-jersey-devils-2024-nhl-stadium-series-breakaway-player-jersey_ss5_p-200459826+pv-1+u-9yfvyj35g9xubmcbugmy+v-lqvxunpbn41hgudov67e.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -471,25 +471,25 @@
     {
       "id": "079",
       "address": "https://fanatics.frgimages.com/new-york-islanders/mens-adidas-mathew-barzal-navy-new-york-islanders-2024-nhl-stadium-series-primegreen-authentic-player-jersey_ss5_p-200663998+u-wbtohukn87kws7xn1fcr+v-hx5g2lcho1xhvpjufcar.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "080",
       "address": "https://fanatics.frgimages.com/new-york-islanders/mens-adidas-royal-new-york-islanders-alternate-primegreen-authentic-custom-jersey_ss5_p-200024258+u-cjme3vtgksswl90xu2bb+v-qdcs9vzlwb9inqfo6x4f.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "081",
       "address": "https://fanatics.frgimages.com/new-york-rangers/mens-adidas-royal-new-york-rangers-home-primegreen-authentic-custom-jersey_ss5_p-200024226+u-gfjzx4pf8vixmbukowse+v-haehtmccsfl5gwjxvri1.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "082",
       "address": "https://fanatics.frgimages.com/new-york-rangers/mens-adidas-white-new-york-rangers-away-primegreen-authentic-custom-jersey_ss5_p-200024228+u-vpupzqtelidocwiq23rl+v-gqtwpsgunftej1yn0c2u.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -501,7 +501,7 @@
     {
       "id": "084",
       "address": "https://fanatics.frgimages.com/new-york-rangers/mens-mitchell-and-ness-wayne-gretzky-blue-new-york-rangers-big-and-tall-blue-line-player-jersey_ss5_p-5283117+u-bkugiiz3tqpa5ms1yn09+v-kuzuk19wkaveufej5sjo.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -573,19 +573,19 @@
     {
       "id": "096",
       "address": "https://fanatics.frgimages.com/pittsburgh-penguins/mens-adidas-sidney-crosby-black-pittsburgh-penguins-home-primegreen-authentic-player-jersey_pi4260000_ff_4260819-4cc0560351a1b19d270c_full.jpg",
-      "liked": false,
-      "bought": false
+      "liked": true,
+      "bought": true
     },
     {
       "id": "097",
       "address": "https://fanatics.frgimages.com/pittsburgh-penguins/mens-adidas-white-pittsburgh-penguins-away-primegreen-authentic-custom-jersey_ss5_p-200138407+u-pc3xqbtkcfrittiji7ho+v-tbdmpdtzr8fyyxad4oa7.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "098",
       "address": "https://fanatics.frgimages.com/pittsburgh-penguins/mens-adidas-kris-letang-black-pittsburgh-penguins-alternate-primegreen-authentic-player-jersey_pi4293000_ff_4293313-5b3abf74111408689468_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -609,7 +609,7 @@
     {
       "id": "102",
       "address": "https://fanatics.frgimages.com/san-jose-sharks/mens-adidas-teal-san-jose-sharks-home-primegreen-authentic-custom-jersey_ss5_p-200024264+u-p3xekgyba4c0bdnudbmh+v-mq8v6rnjfth2wdu3vivg.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -621,19 +621,19 @@
     {
       "id": "104",
       "address": "https://fanatics.frgimages.com/san-jose-sharks/mens-adidas-black-san-jose-sharks-alternate-primegreen-authentic-custom-jersey_ss5_p-200183848+u-wytsrbfckgk3ruozldkb+v-ghoal3nrtmoqtleo6zpb.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "105",
       "address": "https://fanatics.frgimages.com/san-jose-sharks/mens-adidas-teal-san-jose-sharks-home-authentic-blank-jersey_pi2869000_ff_2869014_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "106",
       "address": "https://fanatics.frgimages.com/san-jose-sharks/mens-adidas-kevin-labanc-black-san-jose-sharks-alternate-authentic-jersey_pi3942000_ff_3942108-e5461f637dc396b598bb_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
@@ -651,31 +651,31 @@
     {
       "id": "109",
       "address": "https://fanatics.frgimages.com/seattle-kraken/mens-adidas-philipp-grubauer-teal-seattle-kraken-reverse-retro-20-authentic-player-jersey_pi4684000_ff_4684781-f521e9bf8fb655928e9d_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "110",
       "address": "https://fanatics.frgimages.com/seattle-kraken/preschool-philipp-grubauer-deep-sea-blue-seattle-kraken-2024-nhl-winter-classic-premier-player-jersey_ss5_p-200099919+u-bwxrm45tl3hy7jmstq5h+v-h1aqgvt3sdbqr90xjo7w.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "111",
       "address": "https://fanatics.frgimages.com/st-louis-blues/mens-adidas-jordan-binnington-blue-st-louis-blues-home-authentic-player-jersey_pi4023000_ff_4023086-2a55ab09f31c81760b79_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "112",
       "address": "https://fanatics.frgimages.com/st-louis-blues/mens-adidas-white-st-louis-blues-away-primegreen-authentic-custom-jersey_ss5_p-200138450+u-pstijccywvenxozv7yen+v-ee3mv5wnwgnw7ennyymj.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
       "id": "113",
       "address": "https://fanatics.frgimages.com/st-louis-blues/mens-adidas-blue-st-louis-blues-alternate-authentic-jersey_pi4261000_ff_4261263-b464fe6ba8142cdda0f7_full.jpg",
-      "liked": false,
+      "liked": true,
       "bought": false
     },
     {
