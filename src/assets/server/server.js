@@ -47,6 +47,24 @@ app.get('/api/favorites', (req, res) => {
     });
 });
 
+//get my jerseys
+app.get('/api/myjerseys', (req, res) => {
+    fs.readFile(jerseysFilePath, (err, data) => {
+        if (err) {
+            res.status(500).send('Error reading file');
+            return;
+        }
+        const jerseys = JSON.parse(data);
+        const myJerseys = [];
+        jerseys.jerseys.forEach(jersey => {
+            if(jersey.bought){
+                myJerseys.push(jersey.id);
+            }
+        });
+        res.send(myJerseys);
+    });
+});
+
 //mettre a jour jerseys
 app.post('/api/jerseys', (req, res)=>{
     const updatedJersey = req.body;
