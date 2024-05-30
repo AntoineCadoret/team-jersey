@@ -24,7 +24,6 @@
             async getMyJerseys() {
                 try {
                     const response = await axios.get('http://localhost:3000/api/myjerseys');
-                    console.log('My Jerseys:', response.data);
                     this.jerseys = response.data;
                 } catch (error) {
                     console.error('Error fetching favorites:',  error);

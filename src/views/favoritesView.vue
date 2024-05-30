@@ -23,7 +23,6 @@
             async getFavorites() {
                 try {
                     const response = await axios.get('http://localhost:3000/api/favorites');
-                    console.log('Favorites:', response.data);
                     this.jerseys = response.data;
                 } catch (error) {
                     console.error('Error fetching favorites:',  error);

@@ -68,7 +68,6 @@ app.get('/api/myjerseys', (req, res) => {
 //mettre a jour jerseys
 app.post('/api/jerseys', (req, res)=>{
     const updatedJersey = req.body;
-    console.log('Received updated jersey:', updatedJersey); 
 
     fs.readFile(jerseysFilePath, (err, data) => {
         if (err) {
