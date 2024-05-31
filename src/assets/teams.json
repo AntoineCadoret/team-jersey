@@ -419,7 +419,7 @@
         {
             "shortName": "VAN",
             "city": "vancouver",
-            "color": "bg-blue-700",
+            "color": "bg-blue-900",
             "fullName": "Vancouver Canucks",
             "jerseys": {
                 "homeId": "131",

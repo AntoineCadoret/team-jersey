@@ -16,9 +16,9 @@
 </template>
 <script lang="ts">
   interface Jersey {
-    home: string;
-    away: string;
-    alternates?: string[];
+    homeId: string;
+    awayId: string;
+    alternatesIds?: string[];
   }
 
   interface Team {
