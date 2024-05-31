@@ -1,10 +1,6 @@
 <template>
   <main class="teamPage">
-    <header :class="team.color" class="p-6 flex justify-around items-center rounded-b-lg" >
-      <img :src="imgAddress" :alt="team.fullName" width="120" height="120">
-      <h1 class="text-3xl text-white">{{ team.fullName }}</h1>
-      <img :src="imgAddress" :alt="team.fullName" width="120" height="120">
-    </header>
+    <SecondHeader :img-address="imgAddress" :back-color="team.color" :page-title="team.fullName" size="120"/>
     <div>
       <div class="flex">
         <JerseyBlock class="w-1/2" v-if="team.jerseys" jersey-type="Home" :jerseys-ids="team.jerseys.homeId" :team-name="team.shortName"/>
@@ -30,11 +26,13 @@
   }
   import teams from '../assets/teams.json';
   import JerseyBlock from '@/components/JerseyBlock.vue';
+  import SecondHeader from '@/components/SecondHeader.vue';
   
   export default{
     props: ['team'],
     components:{
-      JerseyBlock
+      JerseyBlock,
+      SecondHeader
     },
     data(){
       return {

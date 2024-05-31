@@ -1,7 +1,7 @@
 
 
 <template>
-  <header class="flex justify-between items-center p-6 bg-orange-500">
+  <header class="flex justify-between items-center p-6 bg-emerald-600">
     <RouterLink class="m-2" to="/"><img class="w-16 h-16" :src="logo" alt="logo"/></RouterLink>
 
       <nav class="flex">
@@ -12,7 +12,7 @@
 
   <RouterView />
 
-  <footer class="mt-8 p-5 bg-orange-500">
+  <footer class="mt-8 p-5 bg-emerald-600">
     <p class="text-center p-6 text-xl">@TeamJerseys</p>
   </footer>
 </template>
