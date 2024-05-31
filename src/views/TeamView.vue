@@ -1,7 +1,7 @@
 <template>
   <main class="teamPage">
     <SecondHeader :img-address="imgAddress" :back-color="team.color" :page-title="team.fullName" size="120"/>
-    <div>
+    <div class="m-8">
       <div class="flex">
         <JerseyBlock class="w-1/2" v-if="team.jerseys" jersey-type="Home" :jerseys-ids="team.jerseys.homeId" :team-name="team.shortName"/>
         <JerseyBlock class="w-1/2" v-if="team.jerseys" jersey-type="Away" :jerseys-ids="team.jerseys.awayId" :team-name="team.shortName"/>
