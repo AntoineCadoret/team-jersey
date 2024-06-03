@@ -1,6 +1,6 @@
 <template>
-    <RouterLink class="relative" :to="{ name: 'jersey', params: { jersey_id: jersey.id }}">
-        <img class="block" :src="jersey.address" alt="Jersey pic">
+    <div class="relative">
+        <RouterLink :to="{ name: 'jersey', params: { jersey_id: jersey.id }}"><img class="block" :src="jersey.address" alt="Jersey pic"></RouterLink>
         <img 
             :src="jersey.liked ? like : notLike" 
             @click="toggle('liked')" 
@@ -15,7 +15,7 @@
             class="absolute top-0 right-0" 
             width="32"
         />
-    </RouterLink>
+    </div>
 </template>
 
 <script lang="ts">
