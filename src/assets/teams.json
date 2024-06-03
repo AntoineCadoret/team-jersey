@@ -1,6 +1,7 @@
 {
     "teams":[
        {
+            "id":"001",
             "city": "anaheim",
             "color": "bg-orange-500",
             "fullName": "Anaheim Ducks",
@@ -16,6 +17,7 @@
             }
         },
         {
+            "id":"002",
             "city": "arizona",
             "color": "bg-red-800",
             "fullName": "Arizona Coyotes",
@@ -30,6 +32,7 @@
             }
         },
         {
+            "id":"003",
             "city": "boston",
             "color": "bg-yellow-400",
             "fullName": "Boston Bruins",
@@ -46,6 +49,7 @@
             }
         },
         {
+            "id":"004",
             "shortName": "BUF",
             "city": "buffalo",
             "color": "bg-blue-600",
@@ -59,6 +63,7 @@
             }
         },
         {
+            "id":"005",
             "shortName": "CGY",
             "city": "calgary",
             "color": "bg-red-700",
@@ -74,6 +79,7 @@
             }
         },
         {
+            "id":"006",
             "shortName": "CAR",
             "city": "carolina",
             "color": "bg-red-600",
@@ -88,6 +94,7 @@
             }
         },
         {
+            "id":"007",
             "shortName": "CHI",
             "city": "chicago",
             "color": "bg-red-700",
@@ -101,6 +108,7 @@
             }
         },
         {
+            "id":"008",
             "shortName": "COL",
             "city": "colorado",
             "color": "bg-red-900",
@@ -117,6 +125,7 @@
             }
         },
         {
+            "id":"009",
             "shortName": "CBJ",
             "city": "columbus",
             "color": "bg-blue-900",
@@ -131,6 +140,7 @@
             }
         },
         {
+            "id":"010",
             "shortName": "DAL",
             "city": "dallas",
             "color": "bg-green-600",
@@ -144,6 +154,7 @@
             }
         },
         {
+            "id":"011",
             "shortName": "DET",
             "city": "detroit",
             "color": "bg-red-600",
@@ -154,6 +165,7 @@
             }
         },
         {
+            "id":"012",
             "shortName": "EDM",
             "city": "edmonton",
             "color": "bg-blue-800",
@@ -169,6 +181,7 @@
             }
         },
         {
+            "id":"013",
             "shortName": "FLA",
             "city": "florida",
             "color": "bg-red-600",
@@ -179,6 +192,7 @@
             }
         },
         {
+            "id":"014",
             "shortName": "LAK",
             "city": "los-angeles",
             "color": "bg-gray-600",
@@ -198,6 +212,7 @@
             }
         },
         {
+            "id":"015",
             "shortName": "MIN",
             "city": "minnesota",
             "color": "bg-green-700",
@@ -211,6 +226,7 @@
             }
         },
         {
+            "id":"016",
             "shortName": "MTL",
             "city": "montreal",
             "color": "bg-red-600",
@@ -225,6 +241,7 @@
             }
         },
         {
+            "id":"017",
             "shortName": "NSH",
             "city": "nashville",
             "color": "bg-yellow-400",
@@ -238,6 +255,7 @@
             }
         },
         {
+            "id":"018",
             "shortName": "NJD",
             "city": "new-jersey",
             "color": "bg-red-600",
@@ -253,6 +271,7 @@
             }
         },
         {
+            "id":"019",
             "shortName": "NYI",
             "city": "new-york-islanders",
             "color": "bg-blue-800",
@@ -267,6 +286,7 @@
             }
         },
         {
+            "id":"020",
             "shortName": "NYR",
             "city": "new-york-rangers",
             "color": "bg-blue-700",
@@ -282,6 +302,7 @@
             }
         },
         {
+            "id":"021",
             "shortName": "OTT",
             "city": "ottawa",
             "color": "bg-red-600",
@@ -297,6 +318,7 @@
             }
         },
         {
+            "id":"022",
             "shortName": "PHI",
             "city": "philadelphia",
             "color": "bg-orange-500",
@@ -312,6 +334,7 @@
             }
         },
         {
+            "id":"023",
             "shortName": "PIT",
             "city": "pittsburgh",
             "color": "bg-yellow-400",
@@ -328,6 +351,7 @@
             }
         },
         {
+            "id":"024",
             "shortName": "SJS",
             "city": "san-jose",
             "color": "bg-teal-800",
@@ -343,6 +367,7 @@
             }
         },
         {
+            "id":"025",
             "shortName": "SEA",
             "city": "seattle",
             "color": "bg-teal-200",
@@ -357,6 +382,7 @@
             }
         },
         {
+            "id":"026",
             "shortName": "STL",
             "city": "st-louis",
             "color": "bg-blue-700",
@@ -372,6 +398,7 @@
             }
         },
         {
+            "id":"027",
             "shortName": "TBL",
             "city": "tampa-bay",
             "color": "bg-blue-900",
@@ -387,6 +414,7 @@
             }
         },
         {
+            "id":"028",
             "shortName": "TOR",
             "city": "toronto",
             "color": "bg-blue-800",
@@ -403,6 +431,7 @@
             }
         },
         {
+            "id":"029",
             "shortName": "NHL",
             "city": "utah",
             "color": "bg-gray-900",
@@ -417,6 +446,7 @@
             }
         },
         {
+            "id":"030",
             "shortName": "VAN",
             "city": "vancouver",
             "color": "bg-blue-900",
@@ -431,6 +461,7 @@
             }
         },
         {
+            "id":"031",
             "shortName": "VGK",
             "city": "las-vegas",
             "color": "bg-yellow-300",
@@ -445,6 +476,7 @@
             }
         },
         {
+            "id":"032",
             "shortName": "WSH",
             "city": "washington",
             "color": "bg-red-700",
@@ -462,6 +494,7 @@
             }
         },
         {
+            "id":"033",
             "shortName": "WPG",
             "city": "winnipeg",
             "color": "bg-blue-900",

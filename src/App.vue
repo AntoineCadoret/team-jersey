@@ -17,7 +17,7 @@
   </footer>
 </template>
 <script lang="ts">
-  import { RouterLink, RouterView } from 'vue-router'
+  import { RouterLink, RouterView } from 'vue-router';
   import hockeyJersey from '@/assets/image/hockey-jersey.png';
   export default {
     data(){

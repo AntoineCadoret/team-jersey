@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <RouterLink class="relative" :to="{ name: 'jersey', params: { jersey_id: jersey.id }}">
         <img class="block" :src="jersey.address" alt="Jersey pic">
         <img 
             :src="jersey.liked ? like : notLike" 
@@ -15,10 +15,11 @@
             class="absolute top-0 right-0" 
             width="32"
         />
-    </div>
+    </RouterLink>
 </template>
 
 <script lang="ts">
+    import { RouterLink } from 'vue-router';
     import axios from 'axios';
     import heartNotLike from "@/assets/image/heart.png";
     import heartLike from "@/assets/image/heart-like.png";

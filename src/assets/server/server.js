@@ -17,6 +17,7 @@ const __dirname = path.dirname(__filename);
 
 // Chemin absolu vers le fichier jerseys.json
 const jerseysFilePath = path.join(__dirname, '../jerseys.json');
+const teamsFilePath = path.join(__dirname, '../teams.json');
 
 //route pour obtenir les jerseys
 app.get('/api/jerseys', (req, res) => {
@@ -63,6 +64,34 @@ app.get('/api/myjerseys', (req, res) => {
         });
         res.send(myJerseys);
     });
+});
+
+//get a jersey info
+app.get('/api/jersey', (req, res) => {
+    const jerseyId = req.query.id;
+    fs.readFile(jerseysFilePath, (err, data) => {
+        if (err) {
+            res.status(500).send('Error reading jersey file');
+            return;
+        }
+        const jerseys = JSON.parse(data);
+        const jersey = jerseys.jerseys.filter(jersey => jersey.id === jerseyId)[0];
+        const jerseyInfo = {jersey:{},team:{}}
+        jerseyInfo.jersey = jersey;
+        fs.readFile(teamsFilePath, (err, data) => {
+            if (err) {
+                res.status(500).send('Error reading teams file');
+                return;
+            }
+            const teams = JSON.parse(data);
+            console.log('in readfile', jerseyInfo.jersey.teamId);
+            const team =  teams.teams.filter(team => team.id === jerseyInfo.jersey.teamId)[0];
+            jerseyInfo.team = team;
+            res.send(jerseyInfo);
+        });
+        
+    });
+
 });
 
 //mettre a jour jerseys
