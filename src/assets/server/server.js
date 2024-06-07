@@ -84,7 +84,6 @@ app.get('/api/jersey', (req, res) => {
                 return;
             }
             const teams = JSON.parse(data);
-            console.log('in readfile', jerseyInfo.jersey.teamId);
             const team =  teams.teams.filter(team => team.id === jerseyInfo.jersey.teamId)[0];
             jerseyInfo.team = team;
             res.send(jerseyInfo);
