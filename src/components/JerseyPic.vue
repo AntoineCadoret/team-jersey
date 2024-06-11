@@ -1,7 +1,7 @@
 <template>
     <div class="relative">
-        <RouterLink :to="{ name: 'jersey', params: { jersey_id: jersey.id }}"><img class="block" :src="jersey.address" alt="Jersey pic"></RouterLink>
-        <img 
+        <RouterLink :to="{ name: 'jersey', params: { jerseyId: jersey._id }}"><img class="block" :src="jersey.imageUrl" alt="Jersey pic"></RouterLink>
+        <!-- <img 
             :src="jersey.liked ? like : notLike" 
             @click="toggle('liked')" 
             alt="like" 
@@ -14,7 +14,7 @@
             alt="bought" 
             class="absolute top-0 right-0" 
             width="32"
-        />
+        /> -->
     </div>
 </template>
 
@@ -26,11 +26,8 @@
     import emptyBox from "@/assets/image/check-box-empty.png";
     import checkBox from "@/assets/image/check.png";
 
-    import jerseys from "@/assets/jerseys.json";
-   
-
     export default {
-        props:['jerseyId'],
+        props:['jersey'],
         data(){
             return {
                 notLike: heartNotLike,
@@ -39,34 +36,31 @@
                 bought: checkBox
             };
         },
-        computed: {
-            jersey(){
-                let value = jerseys.jerseys.filter(jersey => jersey.id === this.jerseyId)[0];
-                return value;
-            }
-        },
+        // computed: {
+        //     async jersey(){
+        //         let value = jerseys.jerseys.filter(jersey => jersey.id === this.jerseyId)[0];
+        //         return value;
+        //     }
+        // },
         methods: {
-            async toggle(iconCliked:string) {
-                if(iconCliked === 'liked'){
-                    this.jersey.liked = !this.jersey.liked;
-                } else {
-                    this.jersey.bought = !this.jersey.bought;
-                }
+            // async toggle(iconCliked:string) {
+            //     if(iconCliked === 'liked'){
+            //         this.jersey.liked = !this.jersey.liked;
+            //     } else {
+            //         this.jersey.bought = !this.jersey.bought;
+            //     }
 
-                try {
-                    await axios.post('http://localhost:3000/api/jerseys', this.jersey);
-                } catch (error) {
-                    console.error('Error updating jersey:', error);
-                }
-            }
+            //     try {
+            //         await axios.post('http://localhost:3000/api/jersey', this.jersey);
+            //     } catch (error) {
+            //         console.error('Error updating jersey:', error);
+            //     }
+            // }
         },
-        watch: {
-            jerseyId() {
-                this.jersey;
-            }
-        },
-        created() {
-            this.jersey;
-        }
+        // watch: {
+        //     jerseyId() {
+        //         this.jersey;
+        //     }
+        // }
     }
 </script>

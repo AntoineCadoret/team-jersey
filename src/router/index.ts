@@ -40,13 +40,13 @@ const router = createRouter({
       component: MyJerseysView
     },
     {
-      path: '/jersey/:jersey_id',
+      path: '/jersey/:jerseyId',
       name: 'jersey',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: JerseyView,
-      props: route => ({ jerseyId: route.params.jerseyId})
+      props: true
     },
     {
       path: '/jerseyslist',
