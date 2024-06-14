@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-3 gap-4 justify-items-center">
-        <JerseyPic v-for="jersey in jerseys" :jersey="jersey" class="w-60"/>
+        <JerseyPic v-for="jersey in jerseys" :jersey-id="jersey._id" class="w-60"/>
     </div>
 </template>
 <script>

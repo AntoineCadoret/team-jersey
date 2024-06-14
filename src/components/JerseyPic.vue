@@ -1,6 +1,8 @@
 <template>
     <div class="relative">
-        <RouterLink :to="{ name: 'jersey', params: { jerseyId: jersey._id }}"><img class="block" :src="jersey.imageUrl" alt="Jersey pic"></RouterLink>
+        <!-- <RouterLink :to="{ name: 'jersey', params: { jerseyId: jersey._id }}"> -->
+        <img class="block" :src="jersey.imageUrl" alt="Jersey pic">
+        <!-- </RouterLink> -->
         <!-- <img 
             :src="jersey.liked ? like : notLike" 
             @click="toggle('liked')" 
@@ -26,14 +28,25 @@
     import emptyBox from "@/assets/image/check-box-empty.png";
     import checkBox from "@/assets/image/check.png";
 
+    interface Jersey {
+        _id: string;
+        team: string;
+        imageUrl: string;
+        activity: string;
+        type: string;
+        primary: string;
+        secondary: string;
+    }
+
     export default {
-        props:['jersey'],
+        props:['jerseyId'],
         data(){
             return {
                 notLike: heartNotLike,
                 like: heartLike,
                 notBought: emptyBox,
-                bought: checkBox
+                bought: checkBox,
+                jersey:{} as Jersey
             };
         },
         // computed: {
@@ -43,6 +56,15 @@
         //     }
         // },
         methods: {
+            async getJersey(){
+                try {
+                    console.log(this.jerseyId);
+                    const response = await axios.get(`http://localhost:3000/jerseys/${this.jerseyId}`);
+                    this.jersey = response.data.jersey;
+                } catch(error) {
+                    console.error(error);
+                }
+            }
             // async toggle(iconCliked:string) {
             //     if(iconCliked === 'liked'){
             //         this.jersey.liked = !this.jersey.liked;
@@ -57,6 +79,9 @@
             //     }
             // }
         },
+        created() {
+            this.getJersey();
+        }
         // watch: {
         //     jerseyId() {
         //         this.jersey;
