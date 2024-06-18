@@ -41,9 +41,6 @@
     },
     methods: {
         async getTeam() {
-        // let value: Team = teams.teams.filter(team => team.city === this.$route.params.team_name)[0];
-        // this.imgAddress = "https://assets.nhle.com/logos/nhl/svg/"+value.shortName+"_dark.svg";
-        // return value;
         try{
           const response = await axios.get(`http://localhost:3000/teams/${this.teamId}`);
           this.team = response.data.team;

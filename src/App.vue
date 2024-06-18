@@ -8,6 +8,8 @@
         <RouterLink class="m-3 text-lg hover:underline focus:underline" to="/jerseyslist">Every Jersey</RouterLink>
         <RouterLink class="m-3 text-lg hover:underline focus:underline" to="/favorites">favorites</RouterLink>
         <RouterLink class="m-3 text-lg hover:underline focus:underline" to="/myjerseys">my Jerseys</RouterLink>
+        <RouterLink class="m-3 text-lg hover:underline focus:underline" to="/signup">Sign Up</RouterLink>
+        <RouterLink class="m-3 text-lg hover:underline focus:underline" to="/signin">Sign In</RouterLink>
       </nav>
   </header>
 
