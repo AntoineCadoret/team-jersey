@@ -7,35 +7,24 @@
     </main>
 </template>
 
-<script lang="ts">
+<script setup>
+    import { ref } from 'vue';
     import axios from 'axios';
     import JerseyPic from '@/components/JerseyPic.vue';
     import SecondHeader from '@/components/SecondHeader.vue';
     import hockeyJersey from '@/assets/image/hockey-jersey.png';
 
-    export default {
-        components: {
-            JerseyPic,
-            SecondHeader
-        },
-        data(){
-            return {
-                jerseys:[] as string[],
-                imgAddress: hockeyJersey
-            };
-        },
-        methods: {
-            async getMyJerseys() {
-                try {
-                    const response = await axios.get('http://localhost:3000/api/myjerseys');
-                    this.jerseys = response.data;
-                } catch (error) {
-                    console.error('Error fetching favorites:',  error);
-                }
-            }
-        },
-        created() {
-            this.getMyJerseys();
+    const jerseys = ref([]);
+    const imgAddress = hockeyJersey;
+
+    getMyJerseys();
+
+    async function getMyJerseys() {
+        try {
+            const response = await axios.get('http://localhost:3000/myjerseys');
+            jerseys.value = response.data;
+        } catch (error) {
+            console.error('Error fetching favorites:',  error);
         }
     }
 </script>
