@@ -1,8 +1,8 @@
 <template>
     <div class="relative">
-        <!-- <RouterLink :to="{ name: 'jersey', params: { jerseyId: jersey._id }}"> -->
+        <RouterLink :to="'/jersey/' + jersey._id">
             <img class="block" :src="jersey.imageUrl" alt="Jersey pic">
-        <!-- </RouterLink> -->
+        </RouterLink>
         <!-- <img 
             :src="jersey.liked ? like : notLike" 
             @click="toggle('liked')" 

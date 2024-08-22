@@ -11,17 +11,6 @@
   </main>
 </template>
 <script setup>
-
-  // interface Team {
-  //   city: string;
-  //   color: string;
-  //   imageUrl: string;
-  //   fullName: string;
-  //   homeJersey: string;
-  //   awayJersey:string
-  //   alternatesJerseys?: string[];
-  //   shortName: string;
-  // }
   import { ref, reactive, defineProps } from 'vue';
   import JerseyBlock from '@/components/JerseyBlock.vue';
   import SecondHeader from '@/components/SecondHeader.vue';
