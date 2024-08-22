@@ -62,33 +62,4 @@
             console.error('Error fetching team:',  error);
         }
     }
-
-    // export default {
-        
-    //     props: ['jerseyId'],
-    //     data(){
-    //         return {
-    //             jerseyInfo: {} as Jersey,
-    //             imgAddress: ""
-    //         };
-    //     },
-    //     methods: {
-    //         async getMyJerseys() {
-    //             try {
-    //                 const response = await axios.get('http://localhost:3000/api/jersey', {
-    //                     params: { id: this.$route.params.jersey_id }
-    //                 });
-    //                 console.log(response.data);
-    //                 this.jerseyInfo = response.data;
-    //                 this.imgAddress = "https://assets.nhle.com/logos/nhl/svg/"+this.jerseyInfo.team.shortName+"_dark.svg"
-    //                 console.log(this.jerseyInfo);
-    //             } catch (error) {
-    //                 console.error('Error fetching jersey:',  error);
-    //             }
-    //         }
-    //     },
-    //     created() {
-    //         this.getMyJerseys();
-    //     }
-    // }
 </script>

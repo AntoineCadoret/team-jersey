@@ -4,34 +4,23 @@
         <JerseyPic v-for="jersey in jerseys" :jersey-id="jersey._id" class="w-60"/>
     </div>
 </template>
-<script>
+<script setup>
+    import { ref } from 'vue'
     import axios from 'axios';
     import JerseyPic from '@/components/JerseyPic.vue';
     import SecondHeader from '@/components/SecondHeader.vue';
 
-    export default{
-        components:{
-            JerseyPic,
-            SecondHeader
-        },
-        data(){
-            return {
-                jerseys:[],
-                imgAddress: "https://assets.nhle.com/logos/nhl/svg/NHL_dark.svg"
-            }
-        },
-        methods: {
-            async getJerseys() {
-                try {
-                    const response = await axios.get('http://localhost:3000/jerseys');
-                    this.jerseys = response.data.jerseys;
-                } catch (error) {
-                    console.error('Error fetching jerseys:',  error);
-                }
-            }
-        },
-        created() {
-            this.getJerseys();
+    const jerseys = ref([]);
+    const imgAddress = ref('https://assets.nhle.com/logos/nhl/svg/NHL_dark.svg');
+
+    getJerseys();
+
+    async function getJerseys() {
+        try {
+            const response = await axios.get('http://localhost:3000/jerseys');
+            jerseys.value = response.data.jerseys;
+        } catch (error) {
+            console.error('Error fetching jerseys:',  error);
         }
     }
 </script>
