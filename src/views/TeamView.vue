@@ -10,51 +10,41 @@
     </div>
   </main>
 </template>
-<script lang="ts">
+<script setup>
 
-  interface Team {
-    city: string;
-    color: string;
-    imageUrl: string;
-    fullName: string;
-    homeJersey: string;
-    awayJersey:string
-    alternatesJerseys?: string[];
-    shortName: string;
-  }
-
+  // interface Team {
+  //   city: string;
+  //   color: string;
+  //   imageUrl: string;
+  //   fullName: string;
+  //   homeJersey: string;
+  //   awayJersey:string
+  //   alternatesJerseys?: string[];
+  //   shortName: string;
+  // }
+  import { ref, reactive, defineProps } from 'vue';
   import JerseyBlock from '@/components/JerseyBlock.vue';
   import SecondHeader from '@/components/SecondHeader.vue';
   import axios from 'axios';
   
-  export default{
-    props: ['teamId'],
-    components:{
-      JerseyBlock,
-      SecondHeader
-    },
-    data(){
-      return {
-        imgAddress: "",
-        team: {} as Team
-      }
-    },
-    methods: {
-        async getTeam() {
-        try{
-          const response = await axios.get(`http://localhost:3000/teams/${this.teamId}`);
-          this.team = response.data.team;
-          console.log(this.team);
-          this.imgAddress = "https://assets.nhle.com/logos/nhl/svg/"+this.team.shortName+"_dark.svg";
-        } catch(err) {
-          console.error('error fetching team');
-        }
-      }
-    },
-    created() {
-      console.log('Received teamId:', this.teamId);
-      this.getTeam();
+  const props = defineProps(['teamId']);
+  const imgAddress = ref('');
+  let team = reactive({});
+
+  getTeam();
+
+  async function getTeam() {
+    console.log(props.teamId);
+    try{
+      const response = await axios.get(`http://localhost:3000/teams/${props.teamId}`);
+      team = response.data.team;
+      console.log(team);
+      imgAddress.value = "https://assets.nhle.com/logos/nhl/svg/"+team.shortName+"_dark.svg";
+    } catch(err) {
+      console.error('error fetching team');
+      console.log(err);
     }
+    
   }
 </script>
 
