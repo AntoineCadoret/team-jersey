@@ -9,38 +9,24 @@
   </main>
 </template>
 
-<script>
+<script setup>
+  import { ref } from 'vue';
   import axios from 'axios';
   import { RouterLink } from 'vue-router'
   import NHLTeam from '../components/NHLTeam.vue';
   import SecondHeader from '@/components/SecondHeader.vue';
 
+  const teamsData = ref([]);
+  const imgAddress = ref('https://assets.nhle.com/logos/nhl/svg/NHL_dark.svg');
 
-  export default{
-    components: {
-      NHLTeam,
-      SecondHeader
-    },
-    data(){
-      return {
-        league: "",
-        teamsData: [],
-        imgAddress: "https://assets.nhle.com/logos/nhl/svg/NHL_dark.svg"
-      }
-    },
-    methods: {
-      async getTeams () {
-        try {
-          const response = await axios.get('http://localhost:3000/teams');
-          this.teamsData = response.data.teams;
-        } catch(err){
-          console.error('Error fetching jerseys:',  err);
-        }
-      }
+  getTeams()
 
-    },
-    created() {
-        this.getTeams();
+  async function getTeams () {
+    try {
+      const response = await axios.get('http://localhost:3000/teams');
+      teamsData.value = response.data.teams;
+    } catch(err){
+      console.error('Error fetching jerseys:',  err);
     }
   }
 </script>
